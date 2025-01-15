@@ -12,8 +12,8 @@ let k = 0;
 let soma = 0;
 
 while (k < indice) {
-  k++;
-  soma++;
+  k = k + 1;
+  soma = soma + k;
 }
 console.log(`O valor de "soma" é: ${soma}`);
 
